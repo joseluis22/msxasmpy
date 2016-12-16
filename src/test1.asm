@@ -1,2 +1,1 @@
-; This is a sample text file for now
-; Nothing interesting is here
+30 * 10 - 1
