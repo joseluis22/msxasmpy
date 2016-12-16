@@ -34,7 +34,7 @@ def assemble(asmfile):
     print(s)
 
 def main():
-    app_name = "msxasmpy"
+    app_name = __file__
     app_ver = "0.0.1"
     app_year = "2016"
     app_author = "msxasmpy team"
