@@ -21,7 +21,10 @@
 # limitations under the License.
 # ------------------------------------------------------------------------------
 
-import argparse
+import sys, argparse
+sys.path.append('ply-3.9')
+import ply.lex as lex
+import ply.yacc as yacc
 
 def assemble(asmfile):
     print("Assembling \"%s\"" % asmfile)

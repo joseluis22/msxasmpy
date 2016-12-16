@@ -94,3 +94,4 @@ ENV/
 *.sln.docstates
 *.VC.db
 *.vcxproj.filters
+ply-*/
