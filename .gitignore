@@ -97,3 +97,4 @@ ENV/
 ply-*/
 parsetab.py
 lextab.py
+parser.out
