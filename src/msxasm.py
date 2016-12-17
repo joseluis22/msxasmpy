@@ -129,7 +129,7 @@ def p_error(p):
         print("Syntax error at EOF")
 
 import ply.yacc as yacc
-yacc.yacc()
+yacc.yacc(debug=True, write_tables=False)
 ### ply stuff end
 
 def assemble(asmfile):
