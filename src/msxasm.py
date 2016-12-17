@@ -155,7 +155,7 @@ def main():
     )
 
     parser = argparse.ArgumentParser(description=app_banner)	# prog='PROG'
-    parser.add_argument('-v', '--version', action='version', version='%(prog)s version ' + app_ver)
+    parser.add_argument('-v', '--version', action='version', version='%(prog)s ' + app_ver)
     parser.add_argument('inputfiles', metavar='file.asm', type=str, nargs='+',
         help='file to assemble')
     args = parser.parse_args()
