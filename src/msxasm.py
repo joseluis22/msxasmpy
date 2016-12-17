@@ -28,8 +28,6 @@ if sys.version_info[0] >= 3:
     raw_input = input
 
 sys.path.insert(0, 'ply-3.9')
-import ply.lex as lex
-import ply.yacc as yacc
 
 tokens = (
     'NAME', 'NUMBER',
