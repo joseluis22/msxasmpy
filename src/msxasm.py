@@ -23,6 +23,8 @@
 
 import sys, argparse
 
+__version__ = "0.0.1"
+
 ### ply stuff start
 if sys.version_info[0] >= 3:
     raw_input = input
@@ -141,21 +143,19 @@ def assemble(asmfile):
     yacc.parse(s)
 
 def main():
-    app_name = __file__
-    app_ver = "0.0.1"
     app_year = "2016"
     app_author = "msxasmpy team"
     app_url = "https://github.com/msxdev/msxasmpy"
     app_banner = "{name} {version} (C) {year} {author} {url}".format(
-        name = app_name,
-        version = app_ver,
+        name = __file__,
+        version = __version__,
         year = app_year,
         author = app_author,
         url = app_url
     )
 
     parser = argparse.ArgumentParser(description=app_banner)	# prog='PROG'
-    parser.add_argument('-v', '--version', action='version', version='%(prog)s ' + app_ver)
+    parser.add_argument('-v', '--version', action='version', version='%(prog)s ' + __version__)
     parser.add_argument('inputfiles', metavar='file.asm', type=str, nargs='+',
         help='file to assemble')
     args = parser.parse_args()
