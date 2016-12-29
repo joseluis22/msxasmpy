@@ -1,4 +1,5 @@
 # msxasmpy
+
 MSX Assembler in Python
 
 I never wrote an assembler in any language,
@@ -25,3 +26,5 @@ next platform/CPU would be Neo Geo Pocket with Toshiba TLCS900H CPU.
 Download and unpack http://www.dabeaz.com/ply/ply-3.9.tar.gz or later in src before use.
 
 Nothing is working right now.
+
+I'm watching this video tutorial for simple flex tokenizer: https://www.youtube.com/watch?v=54bo1qaHAfk
