@@ -27,5 +27,12 @@ Download and unpack http://www.dabeaz.com/ply/ply-3.9.tar.gz or later in src bef
 
 Nothing is working right now.
 
-I'm watching this video tutorial for simple flex tokenizer: <https://www.youtube.com/watch?v=54bo1qaHAfk>.
-Next us is <https://www.youtube.com/watch?v=__-wUHG2rfM> from the same author.
+Useful links:
+
+* Jonathan Engelsma lex/yacc video tutorial:
+[lex](https://www.youtube.com/watch?v=54bo1qaHAfk) and
+[yacc](https://www.youtube.com/watch?v=__-wUHG2rfM)
+* [Regexp reference](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+* [Interactive regex tester](https://regex101.com)
+* [flex states](http://dinosaur.compilertools.net/flex/flex_11.html)
+
