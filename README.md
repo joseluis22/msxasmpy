@@ -27,12 +27,6 @@ Download and unpack http://www.dabeaz.com/ply/ply-3.9.tar.gz or later in src bef
 
 Nothing is working right now.
 
-Useful links:
-
-* Jonathan Engelsma lex/yacc video tutorial:
-[lex](https://www.youtube.com/watch?v=54bo1qaHAfk) and
-[yacc](https://www.youtube.com/watch?v=__-wUHG2rfM)
-* [Regexp reference](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
-* [Interactive regex tester](https://regex101.com)
-* [flex states](http://dinosaur.compilertools.net/flex/flex_11.html)
-* LUV [lex](https://luv.asn.au/overheads/lex_yacc/lex.html) and [yacc](https://luv.asn.au/overheads/lex_yacc/yacc.html) tutorial
+Update: learning both Python and ply at the same time is too much,
+so I started a new project using C and bison/flex: [Red Rage](https://github.com/oboroc/redrage).
+Once Red Rage is up and running, I'll port it back to Python in this project.
